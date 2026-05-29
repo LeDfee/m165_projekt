@@ -54,7 +54,14 @@ def main():
         print("Es wurde nichts geloescht.")
         return
 
-    result = restaurants.delete_many(query)
+    found_ids = [restaurant["_id"] for restaurant in found]
+
+    result = restaurants.delete_many({
+        "_id": {
+            "$in": found_ids
+        }
+    })
+
     print(f"{result.deleted_count} Restaurant(s) wurden geloescht.")
 
 
