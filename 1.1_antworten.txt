@@ -1,0 +1,5 @@
+ODM steht fuer Object Document Mapper.
+
+Ein ODM verbindet Klassen aus Python mit Dokumenten in MongoDB.
+So kann man im Programm mit Objekten arbeiten.
+Der ODM speichert diese Objekte dann als Dokumente in der Datenbank.
