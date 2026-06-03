@@ -1,0 +1,11 @@
+1. Wie sind die Documents verbunden?
+
+In fs.files gibt es das Feld _id.
+In fs.chunks gibt es das Feld files_id.
+files_id zeigt auf die _id aus fs.files.
+So weiss MongoDB, welche Teile zu welchem File gehoeren.
+
+2. Wie werden die Rohdaten gespeichert?
+
+Die Rohdaten stehen in fs.chunks.data.
+Sie werden als BSON Binary gespeichert.

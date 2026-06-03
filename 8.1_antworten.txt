@@ -1,0 +1,12 @@
+Der Code erstellt ein neues Bild mit 200 x 200 Pixeln.
+Das Bild hat den Modus RGB.
+
+Mit ImageDraw.Draw kann man auf das Bild zeichnen.
+draw.line zeichnet eine Linie.
+Die vier Zahlen sind die Koordinaten der Linie:
+Startpunkt x=100, y=200 und Endpunkt x=150, y=180.
+
+fill bestimmt die Farbe der Linie.
+width bestimmt die Breite der Linie.
+
+Mit im.show() wird das Bild angezeigt.

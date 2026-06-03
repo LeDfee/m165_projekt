@@ -1,0 +1,8 @@
+Beim Speichern wird das Feld metadata benutzt.
+Dort steht der Name des Albums.
+
+Ein Bild bekommt zum Beispiel:
+metadata.album = "Ferien"
+
+Spaeter kann man nach metadata.album suchen.
+So findet man alle Bilder aus einem Album.
